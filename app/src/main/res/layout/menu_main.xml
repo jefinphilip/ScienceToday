@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anp="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+
+
+
+    <group>
+
+        <item
+            android:id="@+id/action_settings"
+            android:orderInCategory="100"
+            android:title="settings"
+
+            anp:showAsAction="never"
+            />
+
+    <item
+        android:id="@+id/rss"
+        android:orderInCategory="150"
+        android:title="RSS"
+        android:icon="@drawable/ic_rss"
+        anp:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/youtube"
+        android:orderInCategory="200"
+        android:title="Rocket"
+        android:icon="@drawable/ic_rocket"
+        anp:showAsAction="ifRoom"
+        />
+
+
+
+</group>
+
+</menu>
